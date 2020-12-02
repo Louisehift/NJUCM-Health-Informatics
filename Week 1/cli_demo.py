@@ -1,7 +1,7 @@
 import json
 import os
 
-welcome_msg = ' Welcome to TCM System v0.1 '
+welcome_msg = ' 欢迎来到中药记录系统 v0.1 '
 print(welcome_msg.center(80, '='))
 
 result = {}
