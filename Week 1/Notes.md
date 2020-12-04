@@ -89,7 +89,7 @@
         ```python
         print('The value of a is', a)
         print('The value of b is', b)
-        print('The values of a, b, c are', a, b, c)
+        print('The values of c is', c)
         ```
     * Strings: a data type to hold characters. Use single quotes or double quotes to define.
 
