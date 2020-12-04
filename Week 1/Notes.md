@@ -103,6 +103,7 @@
         ```python
         print(s.title())
         print(s.center(80, '#'))
+        print(s.split())
         ```
 
     * Index / slicing: get a subset of a sequential object such as a string. The index starts at 0 not 1. So the first item should be item 0.
