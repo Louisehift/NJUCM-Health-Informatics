@@ -49,8 +49,8 @@
             * Web pages
             * Mobile applications
             * Desktop applications
-                * Command line interface
-                * Graphical user interface
+                * Command line interface (CLI)
+                * Graphical user interface (GUI)
     * Back-end
         * How the system work behind the scene
         * Technologies
