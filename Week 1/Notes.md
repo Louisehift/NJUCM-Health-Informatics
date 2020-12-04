@@ -65,7 +65,7 @@
     * Download the installer
     * Install to `C:\python37`
 
-## Session 4 - 6
+## Sessions 4 - 6
 * Launch Python
     * Start menu -> IDLE
 * Python basics
