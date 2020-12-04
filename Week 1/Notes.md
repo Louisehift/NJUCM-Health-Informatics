@@ -132,15 +132,15 @@
     * Save data to file: use `open()` to open a file so that data can be written.
 
         ```python
-        f = open('C:/test.txt', 'w') # 'w' means writing mode
-        f.write('Health informatics`)
+        f = open('D:/test.txt', 'w') # 'w' means writing mode
+        f.write('Health informatics')
         f.close()
         ```
 
     * Read data from file: similarly, use `open()` to open a file, then read the data.
 
         ```python
-        f = open('c:/test.txt', 'r') #'r' means reading mode
+        f = open('D:/test.txt', 'r') #'r' means reading mode
         content = f.read()
         print(content)
         ```
