@@ -84,7 +84,7 @@
         # Assign 3.14 to pi
         pi = 3.14
         ```
-    * Inspect: use `print` to 
+    * Inspect: use `print` to display the value.
 
         ```python
         print('The value of a is', a)
