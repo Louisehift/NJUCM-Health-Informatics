@@ -64,3 +64,108 @@
     * Navigate to https://www.python.org
     * Download the installer
     * Install to `C:\python37`
+
+## Session 4 - 6
+* Launch Python
+    * Start menu -> IDLE
+* Python basics
+    * Assignment: use `=` to assign a value to a variable
+
+        ```python
+        a = 1
+        b = 2
+        c = 3.14
+        ```
+    
+    * Comments: commands starting with an `#` are comments. They won't be executed.
+
+        ```python
+        # This is a comment
+        # Assign 3.14 to pi
+        pi = 3.14
+        ```
+    * Inspect: use `print` to 
+
+        ```python
+        print('The value of a is', a)
+        print('The value of b is', b)
+        print('The values of a, b, c are', a, b, c)
+        ```
+    * Strings: a data type to hold characters. Use single quotes or double quotes to define.
+
+        ```python
+        s = "This is a string"
+        print(s)
+        ```
+
+    * String methods: the functions attached to a string object. They are handy to achieved common tasks for strings.
+
+        ```python
+        print(s.title())
+        print(s.center(80, '#'))
+        ```
+
+    * Index / slicing: get a subset of a sequential object such as a string. The index starts at 0 not 1. So the first item should be item 0.
+
+        ```python
+        s2 = 'I love this game'
+        # To get the word "game"
+        # It starts at index 12
+        print(s2[12:]) # 12: means index 12 to the end
+        ```
+    * Dictionaries: a data type for key - value pairs. The user can use the key to search for the corresponding value.
+
+        ```python
+        d = {'subject': 'Health informatics'}
+        d['length'] = '6 sessions'
+        d['language'] = 'python'
+        ```
+
+    * Get input: use `input()` to get input from the user.
+
+        ```python
+        # The answer will be stored in name
+        name = input('What is your name? ')
+        ```
+
+    * Save data to file: use `open()` to open a file so that data can be written.
+
+        ```python
+        f = open('C:/test.txt', 'w') # 'w' means writing mode
+        f.write('Health informatics`)
+        f.close()
+        ```
+
+    * Read data from file: similarly, use `open()` to open a file, then read the data.
+
+        ```python
+        f = open('c:/test.txt', 'r') #'r' means reading mode
+        content = f.read()
+        print(content)
+        ```
+
+    * Utilise the functions in a module: use the `import` statement to include the module to the current session.
+    
+        ```python
+        import json
+        ```
+
+    * Process data with JSON: use `json.dumps()` to convert a Python object to a string in JSON. Use `json.loads()` for the opposite conversion.
+
+        ```python
+        d = {
+        'subject': 'Health informatics',
+        'length': '6 sessions',
+        'language': 'python'
+        }
+        
+        d_json = json.dumps(d)
+
+        # d_json is the data to be written on disk
+        # Another program may read the data from disk, to reconstruct the original object
+        d_recovered = json.loads(d_json)
+        ```
+
+* A command line interface (CLI) [example](./cli_demo.py) is available using the above Python components.
+
+* The previous example can be further developed into a graphical user interface (GUI) program. In Python, `tkinter` is the default GUI package which is able to build native-looking GUI desktop applications. To learn more about `tkinter`, please read this [article](https://likegeeks.com/python-gui-examples-tkinter-tutorial/#Add-a-Menu-bar).
