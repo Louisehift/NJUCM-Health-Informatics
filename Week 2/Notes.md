@@ -126,6 +126,7 @@ Comments (explanatory text) in SQL is denoted by `/* */`, which won't be execute
 1. To create a table, use `CREATE TABLE <table-name> ...`, then define the columns and the data type.
 
     ```sql
+    /* Create a table named herbs, which has four columns: name, pinyin, property and jingluo */
     CREATE TABLE herbs (name text, pinyin text, property text, jingluo text);
     ```
 1. To insert values, use `INSERT INTO ... VALUES ...`.
@@ -181,9 +182,7 @@ Comments (explanatory text) in SQL is denoted by `/* */`, which won't be execute
 1. To change data, use `UPDATE`.
 
     ```sql
-    /* Change the pinyin to Bai Shao 
-        from the table herbs
-        for the row where the name is 白芍 */
+    /* Change the pinyin to Bai Shao from the table herbs for the row where the name is 白芍 */
     UPDATE herbs SET pinyin='Bai Shao' WHERE name='白芍';
     ```
 
