@@ -138,7 +138,7 @@ Comments (explanatory text) in SQL is denoted by `/* */`, which won't be execute
 
     ```sql
     /* Get the column name and property */
-    SELECT (name, property) FROM herbs;
+    SELECT name, property FROM herbs;
 
     /* Get all columns */
     SELECT * FROM herbs;
