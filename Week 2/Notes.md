@@ -155,24 +155,24 @@ Comments (explanatory text) in SQL is denoted by `/* */`, which won't be execute
 
     ```sql
     /* Get 2 rows from the search*/
-    SELECT * FROM herbs LIMIT 2
+    SELECT * FROM herbs LIMIT 2;
     ```
 
 1. To the get unique (non-overlapping) values, use `DISTINCT`.
 
     ```sql
     /* Get the unique values for the column pinyin from the herbs table */
-    SELECT DISTINCT pinyin FROM herbs
+    SELECT DISTINCT pinyin FROM herbs;
     ```
 
 1. To sort the result, use `ORDER BY`, use `DESC` for the descending order.
 
     ```sql
     /* Get all columns and sort by the column pinyin */
-    SELECT * FROM herbs ORDER BY pinyin
+    SELECT * FROM herbs ORDER BY pinyin;
 
     /* use DESC to reverse the order */
-    SELECT * FROM herbs ORDER BY pinyin DESC
+    SELECT * FROM herbs ORDER BY pinyin DESC;
     ```
 
 1. To change data, use `UPDATE`.
@@ -181,14 +181,14 @@ Comments (explanatory text) in SQL is denoted by `/* */`, which won't be execute
     /* Change the pinyin to Bai Shao 
         from the table herbs
         for the row where the name is 白芍 */
-    UPDATE herbs SET pinyin='Bai Shao' WHERE name='白芍'
+    UPDATE herbs SET pinyin='Bai Shao' WHERE name='白芍';
     ```
 
 1. To remove a row, use `DELETE`.
 
     ```sql
     /* Delete the row where the name is 赤芍 */
-    DELETE FROM herbs WHERE name='赤芍'
+    DELETE FROM herbs WHERE name='赤芍';
     ```
 
 ## NoSQL
