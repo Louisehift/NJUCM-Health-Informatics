@@ -185,4 +185,4 @@ Comments (explanatory text) in SQL is denoted by `/* */`, which won't be execute
     ```
 
 ## NoSQL
-Apart from the relational database, there are a range of NoSQL (Not-only SQL). These are databases not based on tables. Most of them are developed for big data which relational databases can have bottleneck. [MongoDB](https://www.mongodb.com/) is a popular NoSQL using JSON instead of tables.
+Apart from the relational database, there are a range of NoSQL (Not-only SQL). These are databases not based on tables. Most of them are developed for big data which relational databases can have bottlenecks. [MongoDB](https://www.mongodb.com/) is a popular NoSQL using JSON instead of tables.
