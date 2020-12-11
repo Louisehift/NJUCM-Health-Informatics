@@ -158,6 +158,13 @@ Comments (explanatory text) in SQL is denoted by `/* */`, which won't be execute
     SELECT * FROM herbs LIMIT 2
     ```
 
+1. To the get unique (non-overlapping) values, use `DISTINCT`.
+
+    ```sql
+    /* Get the unique values for the column pinyin from the herbs table */
+    SELECT DISTINCT pinyin FROM herbs
+    ```
+
 1. To sort the result, use `ORDER BY`, use `DESC` for the descending order.
 
     ```sql
