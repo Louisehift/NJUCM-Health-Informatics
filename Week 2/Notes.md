@@ -67,7 +67,7 @@ A radiological information system is the core system for the electronic manageme
                     * Patient information: name, date of birth, gender, etc.
                     * Scanning information: type of scan, the manufacturer, etc.
                     * Spatial information of the scan.
-                * A pixel array, which holds image(s)
+                * A pixel array, which holds the image(s)
         * As a standard
             * DICOM specifies the communication protocols between devices, such as 
                 * Responding to queries
