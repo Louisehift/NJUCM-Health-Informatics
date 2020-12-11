@@ -131,7 +131,10 @@ Comments (explanatory text) in SQL is denoted by `/* */`, which won't be execute
 1. To insert values, use `INSERT INTO ... VALUES ...`.
 
     ```sql
+    /* Insert three rows into the table herbs */
     INSERT INTO herbs VALUES ('生石膏', 'Sheng Shi Gao', '淡 微寒', '肺 胃');
+    INSERT INTO herbs VALUES ('白芍', 'Shao Yao', '酸', '肝');
+    INSERT INTO herbs VALUES ('赤芍', 'Shao Yao', '酸', '肝 心');
     ```
 
 1. To search, use `SELECT <column-name> FROM <table-name>`
